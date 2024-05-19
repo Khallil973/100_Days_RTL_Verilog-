@@ -1,0 +1,65 @@
+$date
+	Sun May 19 13:24:14 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_lfsr $end
+$var wire 4 ! lfsr_out [3:0] $end
+$var reg 1 " arst_n $end
+$var reg 1 # clk $end
+$scope module dut $end
+$var wire 1 " arst_n $end
+$var wire 1 # clk $end
+$var reg 4 $ lfsr_out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 $
+0#
+0"
+b1 !
+$end
+#10000
+b10 !
+b10 $
+1"
+1#
+#20000
+0#
+#30000
+b101 !
+b101 $
+1#
+#40000
+0#
+#50000
+b1010 !
+b1010 $
+1#
+#60000
+0#
+#70000
+b100 !
+b100 $
+1#
+#80000
+0#
+#90000
+b1000 !
+b1000 $
+1#
+#100000
+0#
+#110000
+b1 !
+b1 $
+1#
